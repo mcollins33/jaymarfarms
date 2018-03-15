@@ -5,16 +5,65 @@ font-family: 'Lato', sans-serif;*/
 body {
     margin: 0;
     font-family: 'Lato', sans-serif;
+    font-size: 17px;
     /*background-image: url(../images/farmer.png);*/
     /*background-color: #e8efc3;*/
+}
+
+#fall::after {
+    background-image: url(../images/fallback.jpg);
+    content: "";
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    background-repeat: repeat-y;
+    background-repeat: repeat-x;
+}
+
+#spring::after {
+    background-image: url(../images/peas2.jpg);
+    content: "";
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    background-repeat: repeat-y;
+    background-repeat: repeat-x;
+}
+
+#eggs::after {
+    background-image: url(../images/eggsback.jpg);
+    content: "";
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    background-repeat: repeat-y;
+    background-repeat: repeat-x;
 }
 
 nav {
     height: 125px;
     margin-bottom: 20px;
-    background-color: #47d147;
+    background-color: #629539;
 }
 
+nav ul a {
+    font-size: 1.1rem;
+}
 li {
 
     line-height: 125px;
@@ -36,7 +85,6 @@ li {
 
 .about {
     text-align: center;
-    font-size: 15px;
 }
 
 .about-title {
@@ -57,14 +105,15 @@ li {
 }
 
 .contact {
-	line-height: 1;
+    line-height: 1;
 }
+
 #linkposition {
-	text-align: right;
+    text-align: right;
 }
 
 .crops {
-	line-height: 1.5;
+    line-height: 1.5;
 }
 
 .crop-title {
