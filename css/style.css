@@ -12,11 +12,11 @@ body {
 nav {
     height: 125px;
     margin-bottom: 20px;
-    background-color: #0d1723;
+    background-color: #47d147;
 }
 
 li {
-    
+
     line-height: 125px;
 }
 
@@ -35,23 +35,39 @@ li {
 }
 
 .about {
-	text-align: center;
-	font-size: 15px;
+    text-align: center;
+    font-size: 15px;
 }
 
 .about-title {
-	text-decoration: underline;
-	font-size: 36px;
+    text-decoration: underline;
+    font-size: 36px;
 }
 
 .page-footer {
-	background-color: #0d1723;
+    background-color: #0d1723;
 }
 
 #footer-title {
-	text-align: center;
+    text-align: center;
 }
 
 #facebook {
-	height: 50px;
+    height: 50px;
+}
+
+.contact {
+	line-height: 1;
+}
+#linkposition {
+	text-align: right;
+}
+
+.crops {
+	line-height: 1.5;
+}
+
+.crop-title {
+    font-size: 36px;
+    text-align: left;
 }
