@@ -26,7 +26,7 @@ body {
 }
 
 #spring::after {
-    background-image: url(../images/peas2.jpg);
+    background-image: url(../images/peas2.JPG);
     content: "";
     opacity: 0.3;
     top: 0;
