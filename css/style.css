@@ -7,7 +7,15 @@ body {
     font-family: 'Lato', sans-serif;
     font-size: 17px;
     position: relative;
+
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
+
+main {
+    flex: 1 0 auto;
+  }
 
 #index:before {
     content: ' ';
@@ -179,7 +187,8 @@ li {
 }
 
 .contact {
-    line-height: 1;
+    line-height: 1.2;
+    margin: 0;
 }
 
 #linkposition {
@@ -194,3 +203,4 @@ li {
     font-size: 36px;
     text-align: left;
 }
+
