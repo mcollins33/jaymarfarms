@@ -105,6 +105,9 @@ li {
 
 .page-footer {
     background-color: #0d1723;
+    position: absolute;
+    bottom: -198.8px;
+    width: 100%;
 }
 
 #footer-title {
