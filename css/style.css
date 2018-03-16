@@ -137,23 +137,23 @@ main {
 }
 
 nav {
-    height: 125px;
+    height: 175px;
     margin-bottom: 20px;
     background-color: #629539;
 }
 
 nav ul a {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 }
 
 li {
 
-    line-height: 125px;
+    line-height: 175px;
 }
 
 
 #logo {
-    height: 125px;
+    height: 175px;
 }
 
 #slogan {
