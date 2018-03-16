@@ -31,7 +31,7 @@ main {
     width: 100%;
     height: 100%;
     z-index: -1;
-    opacity: 0.5;
+    opacity: 0.45;
     background-repeat: no-repeat;
     background-position: 50% 0;
     -ms-background-size: cover;
@@ -144,5 +144,9 @@ li {
 
     .page-footer {
        bottom: -197.2px;
+    }
+
+    .crop-title {
+        font-size: 32px;
     }
 }
