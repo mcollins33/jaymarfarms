@@ -130,3 +130,15 @@ li {
     font-size: 36px;
     text-align: left;
 }
+
+
+@media only screen and (max-width: 768px) {
+    nav,
+    #logo {
+        height: 100px;
+    }
+
+    li {
+        line-height: 100px;
+    }
+}
