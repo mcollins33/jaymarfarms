@@ -141,4 +141,8 @@ li {
     li {
         line-height: 100px;
     }
+
+    .page-footer {
+       bottom: -197.2px;
+    }
 }
