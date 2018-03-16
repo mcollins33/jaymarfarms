@@ -15,107 +15,13 @@ body {
 
 main {
     flex: 1 0 auto;
-  }
-
-#index:before {
-    content: ' ';
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    opacity: 0.5;
-    background-image: url(../images/bark.jpg);
-    background-repeat: no-repeat;
-    background-position: 50% 0;
-    -ms-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    background-size: cover;
 }
 
-#fall:before {
-    content: ' ';
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    opacity: 0.5;
-    background-image: url(../images/fallback.jpg);
-    background-repeat: no-repeat;
-    background-position: 50% 0;
-    -ms-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    background-size: cover;
-}
-
-#spring:before {
-    content: ' ';
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    opacity: 0.5;
-    background-image: url(../images/peas2.JPG);
-    background-repeat: no-repeat;
-    background-position: 50% 0;
-    -ms-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    background-size: cover;
-}
-
-#eggs:before {
-    content: ' ';
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    opacity: 0.5;
-    background-image: url(../images/eggsback.jpg);
-    background-repeat: no-repeat;
-    background-position: 50% 0;
-    -ms-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    background-size: cover;
-}
-#honey:before {
-    content: ' ';
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    opacity: 0.5;
-    background-image: url(../images/beeback.jpg);
-    background-repeat: no-repeat;
-    background-position: 50% 0;
-    -ms-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    background-size: cover;
-}
-
+#index:before,
+#fall:before,
+#spring:before,
+#eggs:before,
+#honey:before,
 #chicken:before {
     content: ' ';
     display: block;
@@ -126,7 +32,6 @@ main {
     height: 100%;
     z-index: -1;
     opacity: 0.5;
-    background-image: url(../images/straw.jpg);
     background-repeat: no-repeat;
     background-position: 50% 0;
     -ms-background-size: cover;
@@ -134,6 +39,30 @@ main {
     -moz-background-size: cover;
     -webkit-background-size: cover;
     background-size: cover;
+}
+
+#index:before {
+    background-image: url(../images/bark.jpg);
+}
+
+#fall:before {
+    background-image: url(../images/fallback.jpg);
+}
+
+#spring:before {
+    background-image: url(../images/peas2.JPG);
+}
+
+#eggs:before {
+    background-image: url(../images/eggsback.jpg);
+}
+
+#honey:before {
+    background-image: url(../images/beeback.jpg);
+}
+
+#chicken:before {
+    background-image: url(../images/straw.jpg);
 }
 
 nav {
@@ -203,4 +132,3 @@ li {
     font-size: 36px;
     text-align: left;
 }
-
