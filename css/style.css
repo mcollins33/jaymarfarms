@@ -47,6 +47,7 @@ main {
 
 #fall:before {
     background-image: url(../images/fallback.jpg);
+    opacity: 0.5;
 }
 
 #spring:before {
@@ -59,6 +60,7 @@ main {
 
 #honey:before {
     background-image: url(../images/beeback.jpg);
+    opacity: 0.55;
 }
 
 #chicken:before {
