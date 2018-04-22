@@ -1,7 +1,3 @@
-/*font-family: 'Halant', serif;
-font-family: 'Roboto Slab', serif;
-font-family: 'Lato', sans-serif;*/
-
 body {
     margin: 0;
     font-family: 'Lato', sans-serif;
@@ -74,10 +70,6 @@ nav {
     background-color: #629539;
 }
 
-nav ul a {
-    font-size: 1.1rem;
-}
-
 li {
 
     line-height: 175px;
@@ -146,7 +138,7 @@ li {
     text-align: left;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 959px) {
     nav,
     #logo {
         height: 150px;
