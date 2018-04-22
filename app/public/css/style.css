@@ -69,9 +69,8 @@ nav {
     margin-bottom: 20px;
     background-color: #629539;
 }
-
-li {
-
+ul {
+    width: 670px;
     line-height: 175px;
 }
 
@@ -83,6 +82,8 @@ li {
 
 #logo {
     height: 175px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 #farm {
@@ -156,3 +157,4 @@ li {
         font-size: 30px;
     }
 }
+
